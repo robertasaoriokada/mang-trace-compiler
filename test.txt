@@ -1,0 +1,10 @@
+int x = 10;
+float y = 2.5;
+if (x > 5) {
+    function main {
+        x = x + y;
+    }
+}
+String name = "Test";
+char literal = 'A';
+int name = "OIOI";
