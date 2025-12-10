@@ -9,4 +9,10 @@ public class Grammar {
     Set<String> nonTerminals;
     Map<String, List<Production>> productions;
     String startSymbol;
+
+    public Grammar() {
+        this.terminals = new java.util.HashSet<>();
+        this.nonTerminals = new java.util.HashSet<>();
+        this.productions = new java.util.HashMap<>();
+    }
 }

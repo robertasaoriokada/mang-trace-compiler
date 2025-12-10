@@ -1,6 +1,8 @@
 package lexer;
 
 public enum TokenType {
+    CLASS,
+
     IF, ELSE, MAIN,
 
     //tipagem
@@ -15,6 +17,7 @@ public enum TokenType {
     ID,
     NUMBER,
 
+    // operadores
     PLUS, MINUS, MULTIPLY, DIVIDE, POW, ROOT,
 
     LT,

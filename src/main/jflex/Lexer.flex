@@ -30,6 +30,7 @@ WHITESPACE = [ \t\r\n]+
 %%
 
 /* Palavras-chave */
+"class"       { return new Token(TokenType.CLASS, yytext(), yyline + 1); }
 "if"          { return new Token(TokenType.IF, yytext(), yyline + 1); }
 "else"        { return new Token(TokenType.ELSE, yytext(), yyline + 1); }
 "main"        { return new Token(TokenType.MAIN, yytext(), yyline + 1); }

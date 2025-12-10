@@ -5,6 +5,7 @@ public class Token {
     public String value;
     public int line;
 
+
     public Token(TokenType type, String value, int line) {
         this.type = type;
         this.value = value;
